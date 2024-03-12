@@ -1,0 +1,5 @@
+def twice_as_old(dad_years_old, son_years_old):
+    father = dad_years_old
+    son = son_years_old
+    answer = abs(father - (son * 2))
+    return answer
